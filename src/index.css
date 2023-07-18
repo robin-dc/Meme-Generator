@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+header{
+  background: linear-gradient(to right, #672280, #A626D3);
+  padding:1.5rem 3rem;
+  color:white;
+}
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width:15rem;
+}
+
+.meme{
+  padding:3rem;
+}
+.inputs{
+  display:flex;
+  gap:1.5rem;
+}
+input{
+  padding:0.8rem 1rem;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  width:100%;
+  font-size: 1rem;
+  outline: none;
+}
+.meme button{
+  padding:1rem;
+  background: linear-gradient(to right, #672280, #A626D3);
+  color:white;
+  cursor: pointer;
+  transition: 0.2s;
+  width:100%;
+  margin-top: 1.5rem;
+  border:none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+button:hover{
+  box-shadow: 0 0 40px 0 #bb00ff;
+}
+button:active{
+  scale:0.9888;
+}
+.meme-img{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  margin-block:3rem;
+  position: relative;
+}
+.meme-img img{
+  max-width: 100%;
+}
+.meme-img h1{
+  color:white;
+  font-size: clamp(0.8rem,3vw,3rem);
+  letter-spacing: 2px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow:
+  -3px -3px 0 #000,
+  3px -3px 0 #000,
+  -3px 3px 0 #000,
+  3px 3px 0 #000;
+}
+.meme-img .top-text{
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.meme-img .bottom-text{
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media (max-width: 900px){
+  .meme{
+    padding:2rem 1rem;
+  }
+}
