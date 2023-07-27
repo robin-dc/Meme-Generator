@@ -3,7 +3,7 @@ Integrating meme API using react
 
 <br>
 
-<img src='https://github.com/robin-dc/Digital-Business-Card/blob/main/digitalcard.png'>
+<img src='https://github.com/robin-dc/Meme-Generator/blob/main/public/meme-generator.png'>
 
 <br>
 
