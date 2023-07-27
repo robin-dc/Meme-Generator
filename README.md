@@ -3,7 +3,7 @@ Integrating meme API using react
 
 <br>
 
-<img src='https://github.com/robin-dc/Meme-Generator/blob/main/public/meme-generator.png'>
+<a href="https://memes-creator.netlify.app/"><img src='https://github.com/robin-dc/Meme-Generator/blob/main/public/meme-generator.png'></a>
 
 <br>
 
